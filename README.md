@@ -15,6 +15,10 @@ Runs OWASP Top-10 lite probes (GET-only) and captures a clean **Proof Pack**:
 - `summary.json`
 - optional `evidence.zip`
 
+Disclaimer
+
+This project is for authorized security testing only. The authors are not responsible for misuse. By using this tool, you agree to comply with all applicable laws and program policies.
+
 > ⚠️ **Legal**: Use only on assets where you have explicit authorization (HackerOne/Bugcrowd/VRP scopes, or your own systems). No brute-force, DoS, or exploit delivery.
 
 ## Features
