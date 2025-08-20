@@ -1,0 +1,5 @@
+Check Headers
+
+You can also inspect HTTP headers with curl:
+
+curl -I https://example.com/
