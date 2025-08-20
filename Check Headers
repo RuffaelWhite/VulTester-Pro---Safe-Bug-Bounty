@@ -3,3 +3,12 @@ Check Headers
 You can also inspect HTTP headers with curl:
 
 curl -I https://example.com/
+
+
+Look for headers like:
+
+X-Frame-Options: DENY → site is protected.
+
+Content-Security-Policy: frame-ancestors 'none' → site is protected.
+
+No such header → site may be vulnerable (likely why VulTesterPro flagged it).
