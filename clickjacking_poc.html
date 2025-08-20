@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clickjacking Proof-of-Concept</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+      background: #f7f7fb;
+      color: #111;
+    }
+    h1 { color: #dc2626; }
+    iframe {
+      width: 800px;
+      height: 600px;
+      border: 4px solid #2563eb;
+    }
+    .notice {
+      background: #fff3cd;
+      border-left: 4px solid #ffeeba;
+      padding: 12px;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Clickjacking Test (Safe PoC)</h1>
+  <div class="notice">
+    ⚠️ This page is for demonstration purposes only. It shows that the target website can be embedded in an iframe. 
+    Do NOT perform any harmful actions.
+  </div>
+  
+  <p>Below is the embedded target site:</p>
+  <iframe src="https://cyberzeb.com/" title="Clickjacking Test"></iframe>
+  
+  <p>
+    If you see the website inside the iframe, the site <b>can be framed</b> → Clickjacking is possible.
+    If the iframe is blocked or blank, proper headers are preventing framing.
+  </p>
+</body>
+</html>
