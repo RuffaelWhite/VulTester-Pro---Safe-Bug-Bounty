@@ -1,3 +1,9 @@
+![Safe](https://img.shields.io/badge/mode-safe-green)
+![OWASP](https://img.shields.io/badge/owasp-top10%20lite-blue)
+![Evidence](https://img.shields.io/badge/proof-pack-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
 # VulTester Pro — Safe Bug-Bounty Scanner + Proof Pack
 
 **Non-destructive evidence builder for bug-bounty and VRP workflows.**  
